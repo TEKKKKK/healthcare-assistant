@@ -18,11 +18,11 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 4. Set up the database
-  1) Start XAMPP and ensure MySQL is running
-  2)Create a database named 'healthcare_db'
-  3)Import the schema from database/schema.sql
+Start XAMPP and ensure MySQL is running
+Create a database named 'healthcare_db'
+Import the schema from database/schema.sql
 
-5. Configure environment variables Create a .env file in the root directory
+6. Configure environment variables Create a .env file in the root directory
 OPENAI_API_KEY=your_openai_api_key_here
 
 Running the Application
@@ -31,7 +31,7 @@ Running the Application
 uvicorn api.main:app --reload
 
 2. Open the frontend
-  1)Navigate to the frontend directory
-  2)Open index.html in a web browser
+Navigate to the frontend directory
+Open index.html in a web browser
 
 Now, enjoy healthcare-assistant!
