@@ -2,6 +2,7 @@ An AI-powered healthcare assistant that helps medical professionals retrieve and
 
 
 Installation
+
 1.Clone the repository
 git clone [your-repository-url]
 cd healthcare-assistant
@@ -25,6 +26,7 @@ pip install -r requirements.txt
 OPENAI_API_KEY=your_openai_api_key_here
 
 Running the Application
+
 1. Start the backend server
 uvicorn api.main:app --reload
 
