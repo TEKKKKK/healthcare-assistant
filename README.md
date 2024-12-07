@@ -4,7 +4,9 @@ An AI-powered healthcare assistant that helps medical professionals retrieve and
 Installation
 
 1.Clone the repository
+
 git clone [your-repository-url]
+
 cd healthcare-assistant
 
 2. Create and activate virtual environment
@@ -16,9 +18,10 @@ python -m venv .venv
 source .venv/bin/activate
 
 3. Install dependencies
+
 pip install -r requirements.txt
 
-4. Set up the database
+5. Set up the database
 
 •Start XAMPP and ensure MySQL is running
 
@@ -27,15 +30,19 @@ pip install -r requirements.txt
 •Import the schema from database/schema.sql
 
 6. Configure environment variables Create a .env file in the root directory
+
 •OPENAI_API_KEY=your_openai_api_key_here
 
 Running the Application
 
 1. Start the backend server
+
 uvicorn api.main:app --reload
 
-2. Open the frontend
+3. Open the frontend
+
 •Navigate to the frontend directory
+
 •Open index.html in a web browser
 
 Now, enjoy healthcare-assistant!
