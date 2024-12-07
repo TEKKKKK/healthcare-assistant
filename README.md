@@ -8,6 +8,7 @@ git clone [your-repository-url]
 cd healthcare-assistant
 
 2. Create and activate virtual environment
+
 python -m venv .venv
 # On Windows
 .venv\Scripts\activate
@@ -18,8 +19,11 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 4. Set up the database
+
 •Start XAMPP and ensure MySQL is running
+
 •Create a database named 'healthcare_db'
+
 •Import the schema from database/schema.sql
 
 6. Configure environment variables Create a .env file in the root directory
